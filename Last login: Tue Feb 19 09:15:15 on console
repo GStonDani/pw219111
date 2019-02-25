@@ -1,0 +1,129 @@
+Last login: Tue Feb 19 09:15:15 on console
+CCDM08:~ ccdm08$ cd pwd219111
+-bash: cd: pwd219111: No such file or directory
+CCDM08:~ ccdm08$ git config user.name "GStonDani"
+fatal: not in a git directory
+CCDM08:~ ccdm08$ git init
+Initialized empty Git repository in /Users/ccdm08/.git/
+CCDM08:~ ccdm08$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	.CFUserTextEncoding
+	.Trash/
+	.aspnet/
+	.bash_history
+	.bash_sessions/
+	.cache/
+	.config/
+	.dotnet/
+	.local/
+	.mono/
+	.nuget/
+	.templateengine/
+	.viminfo
+	.vscode/
+	Applications/
+	Desktop/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+
+nothing added to commit but untracked files present
+CCDM08:~ ccdm08$ git remote add origin https://github.com/GStonDani/pw219111.git
+CCDM08:~ ccdm08$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/GStonDani/pw219111.git'
+CCDM08:~ ccdm08$ git config user.name "GStonDani"
+CCDM08:~ ccdm08$ git config user.email gastonsillo_dani_17@hotmail.com
+CCDM08:~ ccdm08$ git remote add origin https://github.com/GStonDani/pw219111.git
+fatal: remote origin already exists.
+CCDM08:~ ccdm08$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/GStonDani/pw219111.git'
+CCDM08:~ ccdm08$ git remote add origin https://github.com/GStonDani/pw219111.git
+fatal: remote origin already exists.
+CCDM08:~ ccdm08$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/GStonDani/pw219111.git'
+CCDM08:~ ccdm08$ pwd
+/Users/ccdm08
+CCDM08:~ ccdm08$ cd /Users/ccdm08/Documents/pwd219111 
+CCDM08:pwd219111 ccdm08$ ls
+ejemplo.html	historial.txt
+CCDM08:pwd219111 ccdm08$ ls -la
+total 32
+drwxr-xr-x   6 ccdm08  staff   192 Feb 18 12:00 .
+drwx------+ 13 ccdm08  staff   416 Feb 19 11:19 ..
+-rw-r--r--@  1 ccdm08  staff  6148 Feb 18 11:43 .DS_Store
+drwxr-xr-x  13 ccdm08  staff   416 Feb 18 11:59 .git
+-rw-r--r--@  1 ccdm08  staff    12 Feb 18 11:57 ejemplo.html
+-rw-r--r--@  1 ccdm08  staff   165 Feb 18 12:00 historial.txt
+CCDM08:pwd219111 ccdm08$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+CCDM08:pwd219111 ccdm08$ git remote add origin https://github.com/GStonDani/pw219111.git
+CCDM08:pwd219111 ccdm08$ git config user.name "GStonDani"
+CCDM08:pwd219111 ccdm08$ git config user.email gastonsillo_dani_17@hotmail.com
+CCDM08:pwd219111 ccdm08$ git push -u origin master
+Username for 'https://github.com': akatsuki2.
+Password for 'https://akatsuki2.@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/GStonDani/pw219111.git/'
+CCDM08:pwd219111 ccdm08$ git config user.name "GStonDani"
+CCDM08:pwd219111 ccdm08$ git config user.email gastonsillo_dani_17@hotmail.com
+CCDM08:pwd219111 ccdm08$ git push -u origin master
+Username for 'https://github.com': GStonDani
+Password for 'https://GStonDani@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 224 bytes | 224.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/GStonDani/pw219111.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+CCDM08:pwd219111 ccdm08$ 
