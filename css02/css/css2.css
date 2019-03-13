@@ -36,12 +36,47 @@ widows: 60%;
 	color:#FF0099;
 
 }
+#terceraseccion article{
+display: inline-block;
+vertical-align: top;
+width: 23%;
+
+
+}
+#terceraseccion article img{
+
+vertical-align: middle;
+
+}
+#terceraseccion article input{
+
+border-radius: 5px;
+
+}
+#terceraseccion article input[type="button"]{
+
+border-radius: 5px;
+color: white;
+}
+.colorverde{
+color: #8BC500;
+
+}
+.colorazul{
+color: #4267B3;
+
+}
+
 .colorrosa{
 color: #FF0099;
 
 }
-.letragrander{
+.letragrande{
 font-size: 3.5em;
+}
+.letramediana{
+
+	font-size: 3.5em;
 }
 .nito{
 font-weight: bold;
@@ -49,6 +84,12 @@ font-weight: bold;
 #segundaSeccion article{
 padding-right: 122px;
 text-align: right;
+
+
+}
+#secc03art04{
+border: 1px solid red;
+margin-top: 40px;
 
 
 }
