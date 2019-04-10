@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Arrastrar y Soltar</title>
+</head>
+
+<body>
+	<h2> Arrastrar y soltar</h2>
+	<div id = "div1"> 
+<img src="img/HTML5logo.png" height = "31" width = "88" draggable = "true" ondragstart="drag(event)" id="Arrastre" alt="">
+
+
+
+	</div>
+
+<div id = "div2" ondragover="allowDrop(event)" ondrop= "drop(event)">
+	
+</div>
+
+<script>
+	function drop(ev){
+ev.preventDefault();
+var data = ev.dataTransfer.getData("text");
+ev.target.appendChild(document.getElemntById(data));
+
+
+
+	}
+
+
+
+
+
+</script>
+	
+</body>
+</html>

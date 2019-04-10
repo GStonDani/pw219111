@@ -28,6 +28,7 @@ Untracked files:
 	Applications/
 	Desktop/
 	Documents/
+
 	Downloads/
 	Library/
 	Movies/
@@ -126,4 +127,4 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/GStonDani/pw219111.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-CCDM08:pwd219111 ccdm08$ 
+CCDM08:pwd219111 ccdm08$ ls

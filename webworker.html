@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WebWorker</title>
+</head>
+<body>
+	<p>Contar numeros : <div id = "resultado"></div></p>
+	<button ondblclick="iniciarWorker();">Iniciar</button>
+	<button ondblclick="pararWorker();">Detener</button>
+	<script>
+		var w1;
+		function iniciarWorker(){
+			//Preguntamos so lo soporta
+			if(typeof(w1)=="undefined"){
+
+w1 = new Worker('demonWorker.js');
+w1.onmessage = function(event){
+documrnt.getElementById('resultado').innerHTML = event.data;
+
+
+
+
+
+}
+
+		}else{
+
+alert("El navegador no soporta WebWorker");
+
+
+
+
+		}
+
+}
+}
+function pararWorker(){
+w1.terminate();
+W1 = undefined;	
+
+
+}
+
+
+	</script>
+</body>
+</html>

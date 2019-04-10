@@ -1,0 +1,55 @@
+body{
+
+	min-width: 1078px;
+	max-width: 1078px;
+}
+header{
+
+	border-bottom-style: dotted;
+	min-width: 1078px;
+	max-width: 1078px;
+}
+nav{
+
+display: inline-block;
+
+}
+#lupa{
+margin-right: 50px: 
+
+}
+#seccion1{
+margin-left: 200px;
+
+
+}
+
+#seccion2{
+
+margin-left: 1200px;
+margin-top:  -1020px;
+width: 400px;
+display: inline-block;
+border-left-style: dotted;
+}
+
+#Seccion3{
+margin-left: 1200px;
+margin-top: 100px;
+border-left-style: dotted;
+
+}
+#seccion4{
+margin-left:200px;
+margin-top: -270px;
+}
+#seccion5{
+width: 580px;
+margin-left:250px;
+}
+#NORTHERNISM{
+
+	
+}
+
+
