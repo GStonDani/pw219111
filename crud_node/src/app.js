@@ -22,7 +22,7 @@ app.use(myconnection(mysql,{
 	user: 'root',
 	password: '',
 	port:: 3306,
-	database: 'crudnodejsmysql'
+	database: 'crudnodejsmysql13'
 
 
 },'single'))
