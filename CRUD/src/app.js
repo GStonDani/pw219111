@@ -18,7 +18,7 @@ app.use(myConnection(mysql,{
 	user: 'root',
 	password: '',
 	port: 3306,
-	database: 'crudnodejsmysql13'
+	database: 'crudnodejsmysql'
 },'single'));
 
 // Usar las Rutas
